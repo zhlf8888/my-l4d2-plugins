@@ -47,6 +47,9 @@ public OnPluginStart()
 	RegConsoleCmd("sm_witch", BossCmd);
 	RegConsoleCmd("sm_tk", BossCmd);
 	RegConsoleCmd("sm_t", BossCmd);
+	RegConsoleCmd("sm_current", BossCmd);
+	RegConsoleCmd("sm_cur", BossCmd);
+	RegConsoleCmd("sm_c", BossCmd);
 
 	HookEvent("player_left_start_area", LeftStartAreaEvent, EventHookMode_PostNoCopy);
 	HookEvent("round_start", RoundStartEvent, EventHookMode_PostNoCopy);
